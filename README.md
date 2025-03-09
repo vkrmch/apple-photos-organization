@@ -1,6 +1,10 @@
 # apple-photos-organization
+Various tools to manage apple photos.
 
-Various tools to manage apple photos
+## organizer.py
+Creates albums in Apple Photos
+Albums follow the structure Year (Folder) / Month (Sub-folder) / Year.Month.Day (Album)
+e.g. 2025 / 01 / 2025.01.01
 
-## apple_photos_organizer.py
-Creates albums in Apple Photos - YYYY.MM, e.g. 2025.01 where Year is 2025 and 01 is Month (January).
+## photo_counts.py
+Return photo counts by folder structure (folder, subfolder, album)
